@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+.footer{
+    border-top: 1px solid #f1f1f1;
+    height: 100%;
+    /* background-color: #c7aa85; */
+    background-color: black !important;
+}
+.footer .logo img{
+    height: 200px;
+}
+
+.footer .logo{
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
+    color: #f1f1f1;
+    font-family: "Island Moments", cursive;
+    border-bottom: 1px solid white;
+}
+
+.footer .menu_container{
+    padding: 30px;
+}
+
+.footer .sec_title{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 4;
+    color: #f1f1f1;
+    padding: 10px;
+}
+
+.footer ul li{
+    list-style-type: none;
+    padding: 10px;
+    color: #f1f1f1;
+}
+
+.footer .newsletter{
+    margin: auto;
+  width: 40%;
+  /* padding: 10px; */
+}
+.newsletter .sec_title{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.newsletter input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: transparent;
+    color: #f1f1f1 !important;
+    outline: none;
+}
+
+.newsletter input::placeholder{
+    color: #f1f1f1 !important;
+}
+.newsletter input:focus{
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #f1f1f1;
+}
+.newsletter button{
+border: 1px solid #f1f1f1;
+color: #f1f1f1;
+}
+
+.newsletter button:hover{
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+    color: #000; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer .newsletter{
+        margin: auto;
+      width: 100%;
+      padding: 10px;
+    }
+}
+
+.footer .copy_footer{
+    position: relative;
+    height: 15vh;
+    background-color: black;
+}
+
+.footer .copy_footer .copy{
+    
+    position:absolute;
+    bottom:0;
+    /* border-top: 1px solid #f1f1f1; */
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: hsl(10 80% 50%);
+    /* background-color: #f1f1f1; */
+}
+
+.footer .copy_footer .copy a{
+    color: #f1f1f1 !important;
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer{
+        height: 100%;
+    }
+}

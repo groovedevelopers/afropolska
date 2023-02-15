@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&family=Urbanist:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  font-family: "Urbanist", sans-serif;
+  color: #fff;
+}
+
+.body_field {
+  /* text-align: center; */
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+/* SECTION ONE */
+
+@media only screen and (min-width: 1025px) {
+  .section1 {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: #220b0b; /* fallback colour. Make sure this is just one solid colour. */
+    /* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../images/bg.jpeg"); */
+    background: linear-gradient(#000, transparent), url("../images/bg.png");
+    /* background: url("../images/bg.png"); */
+    background-position: top;
+    opacity: 3.8;
+  }
+
+  .section1 h1 {
+    margin-top: 30vh;
+    font-size: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 1.5;
+    color: #e33e39;
+    letter-spacing: 20px;
+  }
+
+  .section1 p {
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fea98d;
+  }
+
+  .section8 {
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    background: #220b0b; /* fallback colour. Make sure this is just one solid colour. */
+    /* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../images/bg.jpeg"); */
+    background: linear-gradient(rgba(4, 4, 4, 0.8), rgba(4, 4, 4, 0.8)),
+      url("../images/bg.png");
+    background-position: bottom left;
+    opacity: 3.8;
+  }
+
+  .section8 h1 {
+    margin-top: 20vh;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 1.5;
+    color: #e33e39;
+    letter-spacing: 20px;
+    text-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .jumbotron {
+    width: 100%;
+    overflow: hidden;
+    background: #220b0b; /* fallback colour. Make sure this is just one solid colour. */
+    background: linear-gradient(#000, transparent), url("../images/bg.png");
+    height: 30vh;
+    background-position: center top;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 1024px) {
+  .section1 {
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    background: #220b0b; /* fallback colour. Make sure this is just one solid colour. */
+    /* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../images/bg.jpeg"); */
+    background: linear-gradient(rgba(4, 4, 4, 0.8), rgba(4, 4, 4, 0.8)),
+      url("../images/bg.png");
+    background-position: bottom left;
+    opacity: 3.8;
+  }
+
+  .section1 h1 {
+    margin-top: 20vh;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 1.5;
+    color: #e33e39;
+    letter-spacing: 20px;
+    text-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .section1 p {
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fea98d;
+  }
+
+  .section8 {
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    background: #220b0b; /* fallback colour. Make sure this is just one solid colour. */
+    /* background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("../images/bg.jpeg"); */
+    background: linear-gradient(rgba(4, 4, 4, 0.8), rgba(4, 4, 4, 0.8)),
+      url("../images/bg.png");
+    background-position: bottom left;
+    opacity: 3.8;
+  }
+
+  .section8 h1 {
+    margin-top: 20vh;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 1.5;
+    color: #e33e39;
+    letter-spacing: 20px;
+    text-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .jumbotron {
+    width: 100%;
+    overflow: hidden;
+    background: #220b0b; /* fallback colour. Make sure this is just one solid colour. */
+    background: linear-gradient(#000, transparent), url("../images/bg.png");
+    height: 30vh;
+    background-position: center top;
+    background-size:cover;
+  }
+}
+
+/* SECTION TWO */
+
+.section2 {
+  padding: 30px;
+  height: 100%;
+  background-color: #000;
+}
+
+.section2 .title {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  color: #fff;
+}
+
+.product_card {
+  height: 100%;
+  border-radius: 0px !important;
+  background-color: #000 !important;
+}
+
+.product_card img {
+  object-fit: contain;
+  height: 400px;
+  width: 100%;
+  background-color: #000 !important;
+}
+
+.product_card .card_body {
+  background-color: #000 !important;
+}
+
+.product_card .product_title {
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.product_card .product_desc {
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.product_card .card_btn {
+  margin: auto;
+  width: 50%;
+}
+
+.product_card button {
+  border: #f1f1f1 1px solid;
+  color: #f1f1f1;
+}
+
+.product_card button:hover {
+  background: #f1f1f1;
+  border: #f1f1f1 1px solid;
+  color: #000;
+}
+
+.single_title {
+  font-size: 40px;
+  color: #f1f1f1;
+  font-weight: 900;
+  line-height: 3;
+}
+
+.single_body {
+  font-size: 20px;
+  color: #f1f1f1;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.single_btn {
+  border: 1px solid hsl(10 80% 50%) !important;
+  color: hsl(10 80% 50%) !important;
+}
+
+.single_btn:hover {
+  border: 1px solid hsl(10 80% 50%) !important;
+  background-color: hsl(10 80% 50%) !important;
+  color: #fff !important;
+}
+
+.icon {
+  color: #e33e39;
+  font-size: 25px;
+}
